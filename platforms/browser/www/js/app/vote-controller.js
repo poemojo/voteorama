@@ -15,8 +15,10 @@ voteController.controller('MainController', ['httpRequest', function(httpRequest
 
    ctrl.toggleMenu = function()
    {
-      angular.element("#sideMenu").toggle();
       angular.element("#sideMenu").toggleClass("w3-animate-left");
+      angular.element("#sideMenu").toggleClass("w3-animate-left-rev");
+      angular.element("#sideMenu").toggle(400);
+
    };
    ctrl.errHide = function()
    {
