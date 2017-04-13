@@ -5,7 +5,7 @@
          Fake the Vote!
     </description>
     <author email="david.levinson@poemojo.com" href="https://twitter.com/DavidPoeMojo">
-        An out of his mind Dev.
+        David Levinson (an out of his mind dev.)
     </author>
     <content src="index.html" />
     <access origin="*" subdomains="true" />
