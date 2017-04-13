@@ -8,7 +8,7 @@
         An out of his mind Dev.
     </author>
     <content src="index.html" />
-    <access origin="*" />
+    <access origin="*" subdomains="true" />
 
     <plugin name="cordova-plugin-whitelist" />
     <allow-navigation href="*" />
