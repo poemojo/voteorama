@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.poemojo.election" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Election App</name>
+    <description>
+         Fake the Vote!
+    </description>
+    <author email="david.levinson@poemojo.com" href="https://twitter.com/DavidPoeMojo">
+        An out of his mind Dev.
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+    <plugin name="cordova-plugin-whitelist" />
+    <allow-navigation href="*" />
+</widget>
